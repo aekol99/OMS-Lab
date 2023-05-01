@@ -1,0 +1,26 @@
+.modal-notification {
+    display: flex;
+    margin-bottom: 15px;
+}
+.modal-notification:last-child {
+    margin-bottom: 0;
+}
+.modal-notification .img {
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* light font weight can be better */
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    font-size: 23px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+.modal-notification .notification-content span:first-child {
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    display: block;
+}
