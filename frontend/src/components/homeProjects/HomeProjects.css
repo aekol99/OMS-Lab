@@ -1,0 +1,106 @@
+.home-projects {
+    flex-grow: 1;
+    background-color: hsl(251 81% 97% / 1);
+    max-height: 100vh;
+    overflow-y: scroll;
+    width: fit-content;
+}
+.home-projects h1 {
+    margin: 12px 30px 0;
+    font-weight: 400;
+}
+.home-projects .filter {
+    margin: 2px 0 0 34px;
+    display: flex;
+}
+.home-projects .sort-by {
+    position: relative;
+    font-size: 14px;
+    width: fit-content;
+}
+.home-projects .sort-by p {
+    margin-top: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.home-projects .sort-by p:hover {
+    color: #888;
+    user-select: none;
+}
+.home-projects .sort-by p span{
+    vertical-align: middle;
+}
+.home-projects .filter .clear-sort-by {
+    border: 1px solid #294c93;
+    color: #294c93;
+    padding: 0 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.home-projects .filter .clear-sort-by:hover {
+    border: 1px solid #578fff;
+    color: #578fff;
+}
+.home-projects .sort-by .sort-by-menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    background-color: #fff;
+    position: absolute;
+    width: 185px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    top: calc(100% + 1px);
+    left: 18px;
+    display: none;
+}
+.home-projects .sort-by .sort-by-menu li {
+    margin-bottom: 3px;
+}
+.home-projects .sort-by .sort-by-menu li:hover {
+    cursor: pointer;
+    color: #999;
+}
+.home-projects .sort-by:hover .sort-by-menu {
+    display: block;
+}
+.home-projects .sort-by .sort-by-menu .sort-by-item.active {
+    color: blue;
+}
+.home-projects .projects {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.home-projects .projects .column {
+    width: 25%;
+}
+
+/* Start Scrollbar Styling */
+/* width */
+.home-projects::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+.home-projects::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.home-projects::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.home-projects::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* End Scrollbar Styling */

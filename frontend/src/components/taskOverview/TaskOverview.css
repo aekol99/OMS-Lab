@@ -1,0 +1,14 @@
+.task-overview {
+    background-color: hsl(251 81% 97% / 1);
+    flex-grow: 1;
+}
+.task-overview .tab-header {
+    margin: 12px 30px 0;
+    font-weight: 400;
+}
+.task-overview .warning {
+    margin: 12px 30px 0;
+    background: #d9deeb;
+    padding: 10px;
+    border-radius: 10px;
+}

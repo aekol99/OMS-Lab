@@ -1,0 +1,92 @@
+.fixed-options-bar {
+    background-color: #1f325c;
+    color: #d4d7ff;
+}
+.options-bar {
+    padding: 20px 0;
+    user-select: none;
+    position: fixed;
+    top: 0;
+    left: 60px;
+}
+.options-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.options-bar p {
+    margin: 0;
+}
+.options-bar .project {
+    padding: 0 20px;
+}
+.options-bar .project p {
+    margin: 0;
+    text-transform: capitalize;
+}
+.options-bar .project p:first-child {
+    font-weight: bold;
+}
+.options-bar .search {
+    display: flex;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+.options-bar .search form {
+    background-color: #30426a;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.options-bar .search form input {
+    background: none;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #d4d7ff;
+}
+.options-bar .search form input::placeholder {
+    color: #787ba1;
+}
+.options-bar .search button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #30426a;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.options-bar .search button:hover {
+    background-color: #384e7b;
+}
+.options-bar .project-tasks,
+.options-bar .boards {
+    margin-top: 20px;
+    padding: 0 5px;
+}
+.options-bar .project-tasks p,
+.options-bar .boards p {
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.options-bar .project-tasks p:hover,
+.options-bar .boards p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.options-bar .project-tasks p span,
+.options-bar .boards p span {
+    margin-right: 3px;
+}
